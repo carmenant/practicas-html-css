@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+/*===============
+=    GENERAL    = 
+===============*/
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  color: #4A342E;
+  background-color: #F2E3D5;
+  margin: 0;
+}
+
+h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+h1,
+h2,
+h3{
+  font-weight: 800;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+a:hover{
+  color: #D4A373;
+}
+
+/*====CIRCLE====*/
+.circle-dec{
+  position: absolute;
+  top: -300px;
+  left: -100px;
+  width: 800px;
+  height: 800px;
+  background-color: white;
+  opacity: 0.4;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+/*===============
+=    HEADER     = 
+===============*/
+.main-nav a{
+  color: white;
+  font-weight: bold;
+  position: relative;
+  padding: 0 0.8rem;
+  transition: color 0.3s ease;
+}
+
+.main-nav a:hover,
+.main-nav a.active{
+  color: #D4A373;
+}
+
+.main-nav a::after{
+  content: "";
+  width: 100%;
+  height: 0.1rem;
+  background-color: #D4A373;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.main-nav a:hover::after,
+.main-nav a.active::after{
+  transform: scaleX(1);
+}
+
+/*===============
+=    MAIN       = 
+===============*/
+.background-white{
+  background-color: white;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin: 0 auto 2rem;
+  padding: 1rem;
+}
+
+.button{
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  background-color: #D4A373;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  padding: 0.7rem 1rem;
+}
+
+.button:hover{
+  color: white;
+  background-color: #6F4E37;
+}
+
+.box h2,
+.box p{
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.enjoy{
+  text-align: center;
+}
+
+.enjoy h2{
+  margin-bottom: 3rem;
+}
+
+.enjoy p{
+  text-align: left;
+  line-height: 170%;
+}
+
+.capital::first-letter{
+  font-size: 4rem;
+  color: #D4A373;
+  padding-right: 0.2rem;
+}
+
+.img-shadow p{
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 300;
+  align-items: baseline;
+  margin: 0 2rem;
+}
+
+/*===============
+=    FOOTER     = 
+===============*/
+.footer-contact a,
+address a{
+  color: #D4A373;
+  text-decoration: none;
+}
+
+.footer-contact p,
+address p{
+  margin: 0;
+  margin-bottom: 0.1rem;
+}
+
+.quick-links h2{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.quick-links li{
+  margin-bottom: 0.5rem;
+}
+
+/*===============
+= OTROS AJUSTES =
+===============*/
+.underline a:hover{
+  text-decoration: underline;
+}
+
+#menu-toggle,
+.menu-icon{
+  display: none;
+}

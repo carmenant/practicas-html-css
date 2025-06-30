@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carla Mendoza">
+    <meta name="description" content="En este documento de práctica se aplican los conocimientos de la práctica final
+    de la asignatura HTML y CSS del Grado Multimedia de UOC">
+    <link rel="icon" href="images/favicon-cafe.png">
+    <title>Delicious Coffee</title>
+        <!--STYLES-->
+    <link rel="stylesheet" href="css/visual.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+        <!--ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <i class="fas fa-bars"></i>
+        </label>
+        <nav aria-label="Main navigation" class="main-nav">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="how.html">Make a coffee</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="index container">
+        <div class="circle-dec"></div>
+        <section class="welcome flex-row">
+            <div class="welcome-text flex-column">
+                <h1>Welcome to Delicious Coffee</h1>
+                <p>Discover the secrets of great coffee and enjoy its unique aroma and flavor.</p>
+                <a class="button" href="how.html">Explore</a>
+            </div>
+            <div class="welcome-img img-box img-wrapper">
+                <img class="coffee-img" src="images/cafe-header.jpg" alt="Two black cups of coffee with latte art on a wooden table.">
+                <div class="img-shadow"></div>
+            </div>
+        </section>
+        <section class="coffees">
+            <h2>Our coffees</h2>
+            <div class="coffee-grid">
+                <div class="coffee-card">
+                    <img src="images/espresso.png" alt="Icon of a steaming espresso cup with a coffee bean symbol.">
+                    <h3>Espresso</h3>
+                    <p>A strong and concentrated coffee with an intense flavor.</p>
+                </div>
+                <div class="coffee-card">
+                    <img src="images/capuchino.png" alt="Red cup of cappuccino with steam on a saucer.">
+                    <h3>Cappuccino</h3>
+                    <p>A balanced blend of coffee, milk, and foam.</p>
+                </div>
+                <div class="coffee-card">
+                    <img src="images/latte.png" alt="Yellow coffee cup with steam rising.">
+                    <h3>Latte</h3>
+                    <p>Soft and creamy, perfect for enjoying slowly.</p>
+                </div>
+            </div>
+            </section>
+        <section class="home box">
+            <div>
+                <h2>Coffee and Inspiration</h2>
+                <p>Coffee is an excuse to gather, to dream, to create. Every sip transports us to unforgettable moments.
+                Explore the art, literature, and creativity that coffee has inspired throughout history.</p>
+            </div>
+        </section>
+        <section class="enjoy">
+            <h2>Enjoy every sip</h2>
+            <div class="enjoy-container flex-row">
+                <div class="enjoy-img img-box">
+                    <img class="coffee-img" src="images/coffee-moment.jpg" alt="Hand holding a coffee cup while milk is being poured, creating latte art.">
+                    <div class="img-shadow enjoy-shadow">
+                        <p>A peaceful coffee moment.</p>
+                    </div>            
+                </div>
+                <div class="enjoy-text flex-column">
+                    <p class="capital">Take a moment to savor the rich aroma and deep flavor of your favorite coffee. At Delicious Coffee, we source the
+                    finest beans from sustainable farms to bring you the highest quality brews.<br>
+                    Whether you prefer a strong espresso or a creamy latte, our coffee is crafted to provide a delightful experience with
+                    every sip. Visit us and discover your new favorite blend.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <section class="footer-contact underline">
+                <p>© 2025 Delicious Coffee</p>
+                <address>
+                <p>Address: 123 Fake Street, City</p>
+                <p>Phone: <a href="tel:34600123456">+34 600 123 456</a></p>
+                <p>Email: <a href="mailto:contact@deliciouscoffee.com">contact@deliciouscoffee.com</a></p>
+                </address>
+                <p>Foto de NastyaSensei: <a href="https://www.pexels.com/photo/two-cups-of-coffee-on-table-2575835/">photo</a></p>
+                <small>All images come from pexels with a <abbr title="Creative Commons">CCO</abbr> license.</small>
+            </section>
+            <nav aria-label="Quick Links" class="quick-links underline">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href=index.html>Home</a></li>
+                    <li><a href="how.html">How to make a good coffee</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="icons">
+            <a href="#" aria-label="Follow us on Facebook">
+                <i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Follow us on Instagram">
+                <i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Follow us on X/Twitter">
+                <i class="fab fa-x-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

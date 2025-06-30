@@ -1,0 +1,101 @@
+body{
+    background-color: #DAF7A6;
+    font-family: serif;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0px auto;
+}
+
+.container{
+    max-width: 1160px;
+    margin: 0px auto;
+    padding: 20px;
+    box-shadow: 0px 7px 10px black;
+}
+
+header, footer{
+    color: white;
+    background-color: #900C3F;
+}
+
+main{
+    background-color: white;
+}
+
+footer{
+    text-align: right;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+figure{
+    max-width: fit-content;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px black;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 9px;
+    padding: 5px;
+    text-align: center;
+  }
+
+h1, h2{
+    font-family: sans-serif;
+    margin: 10px 0px;
+    line-height: 120%;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+h2{
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+p{
+    text-indent: 20px;
+}
+
+q{
+    font-size: 25px;
+}
+
+.quote{
+    padding: 35px 0px;
+    margin: 20px 40px;
+    text-align: center;
+    border-left: 10px solid;
+    border-color: #900C3F;
+}
+
+div.quote>p{
+    display: inline;
+}
+
+strong{
+    font-size: 18px;
+}
+
+a{
+    color: #DAF7A6;
+}
+a:hover{
+    color: white;
+}
+
+article{
+    padding: 0px 20px;
+}
+
+abbr{
+    font-style: italic;
+    border-bottom:1px dotted
+}

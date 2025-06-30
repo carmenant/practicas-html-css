@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carla Mendoza">
+    <meta name="description" content="En este documento de práctica se aplican los conocimientos de la práctica final
+    de la asignatura HTML y CSS del Grado Multimedia de UOC.">
+    <link rel="icon" href="images/favicon-cafe.png">
+    <title>How to Make a Good Coffee</title>
+        <!--STYLES-->
+    <link rel="stylesheet" href="css/visual.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+        <!--ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main navegation" class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="how.html">Make a coffee</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="how container">
+        <div class="circle-dec"></div>
+        <nav class="floating-nav background-white">
+            <ul>
+                <li><a href="#how">Intro</a></li>
+                <li><a href="#steps">Steps</a></li>
+                <li><a href="#data">Data</a></li> 
+                <li><a href="#tips">Tips</a></li>              
+            </ul>
+        </nav>
+        <section id="how">
+            <div class="how-text flex-column">
+                <h1>How to Make a Good Coffee</h1>
+                <p>Follow these simple steps to brew the perfect cup at home.</p>
+            </div>
+            <figure class="quote">
+                    <blockquote>
+                        <em>Coffee is a language in itself.</em>
+                    </blockquote>
+                    <figcaption><strong>— Jackie Chan</strong></figcaption>
+            </figure>
+        </section>
+        <section id="steps">
+            <div class="steps-grid">
+                <div class="steps flex-column">
+                    <h2>Choose Quality Beans</h2>
+                    <p>Start with freshly roasted, high-quality beans. Grind them just before brewing for best flavor.</p>
+                    <img class="steps-img" src="images/coffee-beans.jpg" alt="Roasted coffee beans on a dark surface.">
+                </div>
+                <div class="steps flex-column">
+                    <h2>Measure Properly</h2>
+                    <p>Use a scale to measure your coffee and water. A good ratio is about 1:15 (1g coffee to 15g water).</p>
+                    <img class="steps-img" src="images/measuring-coffee.jpg" alt="Coffee beans in a container on a digital scale.">
+                </div>
+                <div class="steps flex-column">
+                    <h2>Use the Right Water Temperature</h2>
+                    <p>Heat water to around 90-96°C. Too hot or too cold can ruin the extraction.</p>
+                    <img class="steps-img" src="images/water-temperature.jpg" alt="Hot water pouring over ground coffee in a paper filter.">
+                </div>
+            </div>
+                <div class="flex-column">
+                    <h2>Brew and Enjoy</h2>
+                    <p>Use your preferred method: French press, espresso, pour-over... and enjoy every sip.</p>
+                    <img class="brew-img" src="images/coffee-cup.jpg" alt="White cup of coffee on a wooden table in sunlight.">
+                </div>
+        </section>
+        <section id="data" class="background-white">
+            <div class="header-table">
+                <h2>Coffee Data</h2>
+                <p>Explore some common types of coffee and their properties:</p>
+            </div>
+            <div>
+                <table class="coffee-table">
+                    <caption><h3>Comparision of Coffee Types</h3></caption>
+                    <thead>
+                        <th>Type</th>
+                        <th>Origin</th>
+                        <th>Caffeine Level</th>                    
+                        <th>Flavor Notes</th>                    
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Arabica</td>
+                            <td>Latin America</td>
+                            <td>Medium</td>
+                            <td>Sweet, fruity</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr class="brown-row">                        
+                            <td>Robusta</td>
+                            <td>Africa / Asia</td>
+                            <td>High</td>
+                            <td>Bitter, strong</td>
+                        </tr>                        
+                        <tr>                        
+                            <td class="bold-text" rowspan="2">Blend</td>
+                            <td>Colombia + Vietnam</td>
+                            <td>Medium-High</td>
+                            <td>Balanced</td>
+                        </tr>                            
+                        <tr class="brown-row bold-text">                        
+                            <td colspan="3">Special Mix commoly used for commercial espresso</td>
+                        </tr>                            
+                    </tbody>
+                    <tfoot>
+                        <td colspan="4">Source: International Coffee Association</td>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+        <section id="tips" class="background-white">
+            <h2>Tips for the Perfect Brew</h2>
+            <div class="tips-list">
+                <ul>
+                    <li><i class="fas fa-mug-hot" aria-hidden="true"></i>Experiment with different brewing methods.</li>
+                    <li><i class="fas fa-box" aria-hidden="true"></i>Store your beans in a airtight container.</li>
+                    <li><i class="fas fa-soap" aria-hidden="true"></i>Clean your equipment regularly.</li>
+                    <li><i class="fas fa-users" aria-hidden="true"></i>Enjoy your coffee with friends!</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <section class="footer-contact underline">
+                <p>© 2025 Delicious Coffee</p>
+                <address>
+                <p>Address: 123 Fake Street, City</p>
+                <p>Phone: <a href="tel:34600123456">+34 600 123 456</a></p>
+                <p>Email: <a href="mailto:contact@deliciouscoffee.com">contact@deliciouscoffee.com</a></p>
+                </address>
+                <p>Foto de Mark Daynes: <a href="https://unsplash.com/es/fotos/granos-de-cafe-marrones-sobre-superficie-gris-QKylkd3HS6o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">photo</a></p>
+                <p>Foto de Rinat T: <a href="https://unsplash.com/es/fotos/nueces-de-almendra-marrones-en-un-recipiente-de-plastico-negro-46Ab9LvQ-GE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">photo</a></p>
+                <p>Foto de Haengho Lee: <a href="https://unsplash.com/es/fotos/una-cafetera-llena-de-liquido-encima-de-una-estufa-gqyJj7vomrc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">photo</a></p>
+                <p>Foto de L.D.I.A.: <a href="https://unsplash.com/es/fotos/taza-de-ceramica-blanca-sobre-mesa-de-madera-marron-dQdyO9jsixA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">photo</a></p>                
+                <small>All images come from unsplash with a <abbr title="Creative Commons">CCO</abbr> license.</small>
+            </section>
+            <nav aria-label="Quick Links" class="quick-links underline">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href=index.html>Home</a></li>
+                    <li><a href="how.html">How to make a good coffee</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="icons">
+            <a href="#" aria-label="Follow us on Facebook">
+                <i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Follow us on Instagram">
+                <i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Follow us on X/Twitter">
+                <i class="fab fa-x-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

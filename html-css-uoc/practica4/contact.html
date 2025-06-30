@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carla Mendoza">
+    <meta name="description" content="En este documento de práctica se aplican los conocimientos de la práctica final
+    de la asignatura HTML y CSS del Grado Multimedia de UOC">
+    <link rel="icon" href="images/favicon-cafe.png">
+    <title>Contact</title>
+        <!--STYLES-->
+    <link rel="stylesheet" href="css/visual.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+        <!--ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main navegation" class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="how.html">Make a coffee</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact container">
+        <div class="circle-dec"></div>
+        <section>
+            <div class="flex-column">
+                <h1>Contact Us</h1>
+                <p>We'd love to hear from you! Fill out the form or reach out through our fake contact details below.</p>
+            </div>
+            <div class="info box">
+                <h2>Visit Our Store</h2>
+                <address class="underline">
+                    <p>Address: 123 Fake Street, City</p>
+                    <p>Phone: <a href="tel:34600123456">+34 600 123 456</a></p>
+                    <p>Email: <a href="mailto:contact@deliciouscoffee.com">contact@deliciouscoffee.com</a></p>
+                </address>
+                <p class="follow-p">Follow us on:</p>
+                <div class="icons">
+                    <a href="#" aria-label="Follow us on Facebook">
+                        <i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Follow us on Instagram">
+                        <i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Follow us on X/Twitter">
+                        <i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="form">
+            <div class="flex-column background-white">
+                <h2>Get in Touch</h2>
+                <p>Fill out the form bellow and we will get back to you as soon as possible.</p>
+                <form action="#" method="post" class="form-column">
+                    <fieldset class="form-column">
+                        <legend>Personal Information</legend>
+                            <label for="name"></label><input class="form-input" type="text" id="name" name="name" required placeholder="Your Name">
+                            <label for="email"></label><input class="form-input" type="email" id="email" name="email" required placeholder="Your Email">
+                            <label for="phone">Phone Number (optional)</label>
+                                <input class="form-input" type="tel" id="phone" placeholder="+34 600 123 456">
+                            <label for="dob">Date of birth</label>
+                                <input class="form-input" type="date" id="dob" name="dob" required>
+                    </fieldset>
+                    <fieldset class="form-column">
+                        <legend>Your Coffee Preferences</legend>
+                            <label for="coffee">Favorite Coffee</label>
+                            <select id="coffee" name="coffee" class="form-input" required>
+                                <option value="" disabled selected>Select Coffee Type</option>
+                                <option value="espresso">Espresso</option>
+                                <option value="cappuccino">Cappuccino</option>
+                                <option value="latte">Latte</option>
+                                <option value="mocha">Mocha</option>
+                            </select>
+                        <label for="milk">How do you take your coffee?</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="milk" value="black">Black</label>
+                            <label><input type="radio" name="milk" value="milk">With Milk</label>
+                            <label><input type="radio" name="milk" value="oat">Oat Milk</label>
+                        </div>
+                        <label for="message">Message</label>
+                            <textarea class="form-input" id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+                    </fieldset>
+                    <label class="checkbox-inline"><input type="checkbox" name="policy" required>I accept the <a href="#">Privacy Policy</a></label>
+                    <button type="submit" class="button">Send Message</button>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <section class="footer-contact underline">
+                <p>© 2025 Delicious Coffee</p>
+                <address>
+                <p>Address: 123 Fake Street, City</p>
+                <p>Phone: <a href="tel:34600123456">+34 600 123 456</a></p>
+                <p>Email: <a href="mailto:contact@deliciouscoffee.com">contact@deliciouscoffee.com</a></p>
+                </address>
+                <p>Foto de NastyaSensei: <a href="https://www.pexels.com/photo/two-cups-of-coffee-on-table-2575835/">photo</a></p>
+                <small>All images come from pexels with a <abbr title="Creative Commons">CCO</abbr> license.</small>
+            </section>
+            <nav aria-label="Quick Links" class="quick-links underline">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href=index.html>Home</a></li>
+                    <li><a href="how.html">How to make a good coffee</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="icons">
+            <a href="#" aria-label="Follow us on Facebook">
+                <i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Follow us on Instagram">
+                <i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Follow us on X/Twitter">
+                <i class="fab fa-x-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
