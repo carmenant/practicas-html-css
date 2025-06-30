@@ -1,6 +1,6 @@
 # Prácticas HTML y CSS – UOC
 
-Este repositorio contiene las 4 primeras prácticas de la asignatura **HTML y CSS** del Grado en Multimedia de la **Universitat Oberta de Catalunya (UOC)**.
+Este repositorio contiene las 4 prácticas de la asignatura **HTML y CSS** del Grado en Multimedia de la **Universitat Oberta de Catalunya (UOC)**.
 
 ## Prácticas
 
